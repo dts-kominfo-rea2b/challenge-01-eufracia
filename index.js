@@ -2,7 +2,7 @@
 // Tentukan tipe data dan struktur data yang menurut kalian tepat
 // Kalian bisa membuat variabel lain untuk dimasukkan ke dalam atribut user agar lebih mudah dibaca
 const favoriteColorMonica = new Set(["Yellow", "Pink", "White", "Purple"]);
-const favoriteRestoranMonica = new Set([
+const favoriteRestaurantMonica = new Set([
   "Bento",
   "Sushi",
   "Pancake",
@@ -17,7 +17,7 @@ const favoriteRestoranMonica = new Set([
 ]);
 
 const favoriteColorWendy = new Set(["Blue", "Black", "Grey"]);
-const favoriteRestoranWendy = new Set([
+const favoriteRestaurantWendy = new Set([
   "Tempura",
   "Bento",
   "Sushi",
@@ -34,7 +34,7 @@ const firstUser = {
   gender: "Female",
   age: 17,
   email: "monica@dingdong.com",
-  favoriteColorMonica,
+  favoriteColor: favoriteColorMonica,
   isHavePet: "Yes",
   education: [
     {
@@ -49,7 +49,7 @@ const firstUser = {
     },
     { name: "SMA 03", city: "Tangerang" },
   ],
-  favoriteRestoranMonica,
+  favoriteRestaurant: favoriteRestaurantMonica,
 };
 
 const secondUser = {
@@ -57,7 +57,7 @@ const secondUser = {
   gender: "Male",
   age: 23,
   email: "wendy@dingdong.com",
-  favoriteColorWendy,
+  favoriteColor: favoriteColorWendy,
   isHavePet: "No",
   education: [
     {
@@ -73,7 +73,7 @@ const secondUser = {
     },
     { name: "Universitas Maju", city: "Tangerang" },
   ],
-  favoriteRestoranWendy,
+  favoriteRestaurant: favoriteRestaurantWendy,
 };
 
 // TODO: Masukkan hasil akhir dari kedua user di sini
